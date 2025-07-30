@@ -1,0 +1,14 @@
+.caja{
+    width: 200px;
+    height: 200px;
+    border: solid black;
+}
+#padre{
+    background-color: yellow;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; /* para distribuir el espacio*/
+    align-items: center; 
+    gap: 30px; /* espacio entre los elementos del contenedor*/
+}
